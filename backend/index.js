@@ -12,6 +12,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
   'http://localhost:5173',
+  'https://task02-eta.vercel.app'
   
 ];
 // app.options('*', cors()); // Preflight request handling
